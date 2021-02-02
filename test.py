@@ -105,6 +105,5 @@ async def music(ctx, channel):
     url = url.strip('https://www.youtube.com/watch?v=naIKplXzxTY')
 
     vc = await client.connect(channel)
-    vc.play(discord.FFmpegPCMAudio(url))
 
 client.run(TOKEN)
