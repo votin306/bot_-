@@ -7,7 +7,7 @@ from discord import Spotify
 import os
 
 help_text = "фыва"
-TOKEN = 'Nzg4OTY4MDIxMzU1NTI4MjEy.X9rNug.tEMSHoYpBx9YJskUuqHw0s6QNUw'
+TOKEN = 'токен'
 client = commands.Bot(command_prefix = '#')
 like = "811644070635241492"
 
